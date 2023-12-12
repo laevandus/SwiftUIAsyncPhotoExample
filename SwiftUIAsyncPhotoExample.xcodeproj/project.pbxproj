@@ -12,6 +12,7 @@
 		C809E9402B24AA34000D044E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C809E93F2B24AA34000D044E /* Assets.xcassets */; };
 		C809E9432B24AA34000D044E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C809E9422B24AA34000D044E /* Preview Assets.xcassets */; };
 		C809E94A2B24AA40000D044E /* AsyncPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C809E9492B24AA40000D044E /* AsyncPhoto.swift */; };
+		C80CEE3E2B24E5C600D1EA6D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80CEE3D2B24E5C600D1EA6D /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C809E93F2B24AA34000D044E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C809E9422B24AA34000D044E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C809E9492B24AA40000D044E /* AsyncPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncPhoto.swift; sourceTree = "<group>"; };
+		C80CEE3D2B24E5C600D1EA6D /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				C809E93B2B24AA34000D044E /* SwiftUIAsyncPhotoExampleApp.swift */,
 				C809E93D2B24AA34000D044E /* ContentView.swift */,
 				C809E9492B24AA40000D044E /* AsyncPhoto.swift */,
+				C80CEE3D2B24E5C600D1EA6D /* UIImage+Extensions.swift */,
 				C809E93F2B24AA34000D044E /* Assets.xcassets */,
 				C809E9412B24AA34000D044E /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				C809E94A2B24AA40000D044E /* AsyncPhoto.swift in Sources */,
 				C809E93E2B24AA34000D044E /* ContentView.swift in Sources */,
 				C809E93C2B24AA34000D044E /* SwiftUIAsyncPhotoExampleApp.swift in Sources */,
+				C80CEE3E2B24E5C600D1EA6D /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

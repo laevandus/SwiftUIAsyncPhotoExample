@@ -18,13 +18,13 @@ struct ContentView: View {
                            scaledSize: CGSize(width: 48, height: 48),
                            data: { selectedColor in
                     guard let selectedColor else { return nil }
-                    return UIImage.filled(size: CGSize(width: 1000, height: 1000),
-                                          fillColor: selectedColor).pngData()
+                    return await Task.detached {
+                        UIImage.filled(size: CGSize(width: 5000, height: 5000),
+                                       fillColor: selectedColor).pngData()
+                    }.value
                 },
                            content: { image in
                     image
-                        .resizable()
-                        .scaledToFit()
                         .clipShape(Circle())
                 },
                            placeholder: {
